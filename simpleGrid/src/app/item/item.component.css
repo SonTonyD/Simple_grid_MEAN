@@ -1,0 +1,9 @@
+h3 {
+    text-align: center;
+    border: 3px solid black;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
