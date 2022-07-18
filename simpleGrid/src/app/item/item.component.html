@@ -3,7 +3,7 @@
 <button>Add Item</button>
 
 <div class="wrapper">
-    <div *ngFor="let item of items">
+    <div *ngFor="let item of items$ | async">
         <h3> {{item.name}} </h3>
     </div>
 </div>
